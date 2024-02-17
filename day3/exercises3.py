@@ -114,3 +114,47 @@ print(f"Ahora su tipo paso a ser : {type(str(tam_cadena))} ")
 
 num_par = int(input("Ingrese un numero para comprobar si es par o no: "))
 print("El numero ingresado es par: ", (num_par%2) == 0)
+
+#18. comprobar que la division de piso de 7/3 sea igual a 2.7 convertido en entero 
+
+division_piso = 7//3
+num = 2.7
+
+print("El resultado de la division de piso de 7 entre 3 y la parte entera de 2.7 son la misma : ", division_piso == int(num))
+
+#19. ver si '10' y 10 tienen el mismo tipo de dato 
+
+tipo_1 = '10'
+tipo_2 = 10 
+
+print("Son el mismo tipo de dato: ", type(tipo_1) == type(tipo_2))
+
+#20. Ver si el entero de 9.8 es igual a 10
+
+num_1 = float('9.8')
+num_2 = 10
+
+print("9.8 es igual a 10: ", int(num_1) == num_2)
+
+#21. 
+
+hora = int(input("Ingrese el numero de horas :"))
+por_hora = int(input("Ingrese cuanto gana por hora :"))
+
+print("Usted gana por hora: ", hora* por_hora)
+
+#22. Calcular cuanto a vivido una persona en segundos
+min = 60
+hora = min * 60
+dia = hora *24
+año = dia * 365
+edad = int(input("Ingrese cuantos años tiene: "))
+
+print(f"Usted ha vivido por {edad * año} segundos ")
+
+#23.
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
